@@ -3,8 +3,6 @@ package _03_jukebox;
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
-
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -19,14 +17,13 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 
 /*   If you don't have javazoom.jar in your project, you can download it from here: http://bit.ly/javazoom
  *   Right click your project and add it as a JAR (Under Java Build Path > Libraries).*/
-
 public class Jukebox implements Runnable {
 
     public void run() {
 
 		// 1. Find an mp3 on your computer or on the Internet.
 		// 2. Create a Song object for that mp3
-
+    	
 		// 3. Play the Song
 
 		/*
@@ -132,4 +129,3 @@ class Song {
 		}
 	}
 }
-
